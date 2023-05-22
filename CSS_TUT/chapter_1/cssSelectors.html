@@ -5,6 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+
+        /* these are element selecter like -> h1,div,span,paragraph */
+        h1{
+            color: red;
+        }
+        div{
+            background-color: bisque;
+        }
+
+        /* this is a id selecter */
+        /* for applying same propetries to another element we can group them together by using "," couma */
+        #red,h3{
+            color: white;
+            background-color: red;
+        }
+
+        /* this is a class selecter */
+        .blue{
+            border: 2px solid red;
+            background-color: blue;
+        }
+
+        /* * can we as a universal slecter to select all the elemenst */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
 </head>
 <body>
     <div>
@@ -12,6 +42,16 @@
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi repellendus dolorem ipsa, repellat quas deserunt dignissimos dicta sit sequi, saepe vero numquam voluptatibus ut ipsum corrupti consequatur perferendis minus. Ad.
         </p>
+        <h1>this is another h1</h1>
+        <div id="red"> bg is red </div>
+        <span class="blue"> this is blue</span>
+        <span class="blue"> this is blue</span>
+        <span class="blue"> this is blue</span>
+        <span class="blue"> this is blue</span>
+
+        <h3>merko group kara hai</h3>
     </div>
+
+
 </body>
 </html>
