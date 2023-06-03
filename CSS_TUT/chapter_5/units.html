@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unitst</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            font-size: 20px;
+        }
+        .box{
+            background-color: blue;
+           /* 1. px
+           font-size: 12px; */
+            /* 2. em */
+            /* em is units that multiply the child text size by its parrent size with a given number if i use 3em its mean that child tsxt size should equal to 3*parrent text size */
+            /* em is related to parrent  */
+            /* font-size: 4em*/
+            /* 3. rem */
+            /* rem is related to the html size text it multiply wahtever the value of html size */
+
+            /* -->> */ font-size: 2rem;
+        }
+        .box2{
+            /* view port width */
+            width: 50vw;
+            /* view port height */
+            height: 50vh;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>This is a Paragraph</p>
+        <div class="box">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio ab praesentium sit odio fuga aliquid harum perspiciatis. Error consectetur nulla consequatur et, accusamus animi illum quas id sequi mollitia enim adipisci, rerum doloribus corrupti!
+        </div>
+        <div class="box2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dignissimos asperiores ipsam aliquid necessitatibus corporis fugiat, sed, odit culpa fugit quisquam ullam quam dolore? Architecto ducimus debitis iure id quae, perferendis adipisci.
+        </div>
+    </div>
+</body>
+</html>
