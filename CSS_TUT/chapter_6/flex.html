@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            /* justify-content: flex-start; */
+            background-color: black;
+            height: 150vh;
+            justify-content: center;
+
+            /* if we want space between boxes when we wrap the page then we use align-items: center; */
+            align-items: center;
+
+            /* if we want to set all box as together then we use align-content:center ; */
+            /* we can not use align-self: function if we enable or used the align-content: in our flex box */
+            /* align-content: center; */
+
+            flex-direction: column;
+        }
+        .box1{
+            height: 234px;
+            width: 345px;
+            background-color: red;
+            border: 2px solid black;
+            order: 4;
+            /* align-self: flex-end; */
+        }
+        .box2{
+            height: 234px;
+            width: 345px;
+            background-color: rgb(24, 255, 70);
+            border: 2px solid black;
+            /* we use order set a box postion in a div */
+            /* the higher will placed at the last and the lowest at the first of the index */
+            /* order: -1; */
+            /* align-self: flex-start; */
+        }
+        .box3{
+            height: 234px;
+            width: 345px;
+            background-color: rgb(20, 0, 241);
+            border: 2px solid black;
+            flex-grow: 8;
+        }
+        .box4{
+            height: 234px;
+            width: 345px;
+            background-color: rgb(0, 219, 215);
+            border: 2px solid black;
+            /* imp--->>> align-self: is use for positioning the content items that present in the flex box */
+            /* align-self: flex-end; */
+            flex-grow: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">Box 1</div>
+        <div class="box2">Box 2</div>
+        <div class="box3">Box 3</div>
+        <div class="box4">Box 4</div>
+    </div>
+</body>
+</html>

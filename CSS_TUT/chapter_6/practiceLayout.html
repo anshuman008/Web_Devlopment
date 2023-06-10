@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: black;
+            color: white;
+        }
+
+        li {
+            display: inline;
+            padding: 0 33px;
+        }
+
+        .bigimg {
+            background-image: url('https://assets-static.invideo.io/images/large/Youtube_Banner_Size_34749296f8.png');
+            width: 100vw;
+            height: 55vh;
+           background-size: cover;
+        }
+        .bigSection{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .gap{
+            height: 44px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="img"><img
+                src="https://www.clipartmax.com/png/middle/171-1717870_stockvader-predicted-cron-for-may-user-profile-icon-png.png"
+                alt="error" height="60px"></div>
+        <div class="prop">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="bigimg"></div>
+       <div class="gap"></div>
+    <div class="bigSection">
+        <div><img src="https://wallpaperaccess.com/full/1285469.jpg" height="240px"></div>
+        <div><img src="https://wallpaperaccess.com/full/1285469.jpg" height="240px"></div>
+        <div><img src="https://wallpaperaccess.com/full/1285469.jpg" height="240px"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        .box1{
+            height: 20vh;
+            width: 20vw;
+            background-color: red;
+            display: flex;
+            float: left;
+        }
+        .box2{
+            height: 20vh;
+            width: 20vw;
+            background-color: rgb(24, 255, 70);
+            display: flex;
+            float: right;
+        }
+        .box3{
+            height: 20vh;
+            width: 20vw;
+            background-color: rgb(20, 0, 241);
+            display: flex;
+            float: right;
+            /* if use clear property then we clear our left or right side or evn both side */
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">Box 1</div>
+    <div class="box2">Box 2</div>
+    <div class="box3">Box 3</div>
+</body>
+</html>
