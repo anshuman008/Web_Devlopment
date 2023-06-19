@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pricing table</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+             align-items: center;
+            height: 100vh;
+            gap: 2rem;
+        }
+        .price{
+            flex: 1;
+          text-align: center;
+          font-weight: 400;
+          max-width: 400px;
+            background-color: rgba(210, 208, 208, 0.587);
+            letter-spacing: 0.008em;
+line-height: 1.5;
+border: 5px;
+transition-duration: 0.3s;
+        }
+        .Value{
+            font-size: xx-large;
+            font-weight: bolder;
+        }
+        .button{
+            position: relative;
+            width: 49px;
+            height: 30px;
+            display: inline-block;
+            background-color: orange;
+            color: white;
+            border-radius: 5px;
+            top: 45px;
+            margin: 5px;
+padding: 5px;
+            
+        }
+        .price:hover{
+            transform: translateY(-50px);
+            background-color: rgb(47, 255, 0);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="basic price">
+            <h2>Basic</h2>
+             <div class="Value">$11.55/month</div>
+             10gb storage <br>
+             1 user<br>
+             support<br>
+             <div class="button">Buy</div>
+        </div>
+        <div class="standard price"><h2>Basic</h2>
+            <div class="Value">$11.55/month</div>
+            10gb storage <br>
+            1 user<br>
+            support<br>
+            <div class="button">Buy</div></div>
+        <div class="premium price"><h2>Basic</h2>
+            <div class="Value">$11.55/month</div>
+            10gb storage <br>
+            1 user<br>
+            support<br>
+            <div class="button">Buy</div></div>
+    </div>
+</body>
+</html>
